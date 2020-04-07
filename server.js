@@ -1,5 +1,6 @@
 const express = require("express");
 
+
 let PORT = process.env.PORT || 8082;
 
 let app = express();
@@ -7,6 +8,10 @@ let app = express();
 
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static("public"));
+
+app.use(require('./routes/api.js'));
+app.use(require('./routes/html_routes.js'));
+
 
 // Start our server so that it can begin listening to client requests.
 app.listen(PORT, function() {
