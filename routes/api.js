@@ -11,9 +11,9 @@ router.get('/api', function (req, res) {
   router.put('/api/workouts/:id', function (req, res) {
       DB.ExerciseModel.create(req.body)
       console.log(req.body)
-    res.send(req.params.id)
+    res.json({})
   });
-  
+
   router.post('/api/workouts', function (req, res) {
     console.log(req.body)
   res.send('Successfully Added')
