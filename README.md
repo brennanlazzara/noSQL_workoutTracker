@@ -1,11 +1,14 @@
 # noSQL_workoutTracker
 
-This is composed of multiple folders (config, controllers, db, models, public views). This is compose of mulitple files (connections.js, orm.js, catsController.js, schema.sql, seeds.sql, cats.js, style.css, cats.js, ect...)
-This is a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.
-The user can add, delete, update and view all types of burgers in two different columns (tastes good, doesnt tastes good)
+This is composed of multiple folders (models, public, routes, seeders). This is compose of mulitple files (index.js, workout.js, api.js, excersise.js/html, stats.js/html, style.css, workout-style.css ect...)
+
+## USER STORY
+As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+
+The user can add new exercises to a previous or new workout plan. The user can view multiple the combined weight of multiple exercises on the stats page.
 
 ## SCREENSHOT OF THE APPLICATION!
-![Screenshot](public/images/mvcScreenshot.png)
+![GIF]()
 
 ## Heroku
 
@@ -20,9 +23,8 @@ JAVASCRIPT
 JQUERY
 NODE.JS
 EXPRESS
-EXPRESS-HANDLEBARS
-MYSQL
-ORM
+MONGODB
+MONGOOSE
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
