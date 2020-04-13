@@ -8,7 +8,7 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 The user can add new exercises to a previous or new workout plan. The user can view multiple the combined weight of multiple exercises on the stats page.
 
 ## SCREENSHOT OF THE APPLICATION!
-![GIF]()
+![GIF](https://media.giphy.com/media/UsT2N5T0BjQGwQYlTI/giphy.gif)
 
 ## Heroku
 
