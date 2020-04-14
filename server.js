@@ -2,9 +2,9 @@ const express = require("express");
 const mongoose = require('mongoose')
 
 let PORT = process.env.PORT || 8080;
-
+const mongoDBURL = process.env.MONGODB_URI || "mongodb://localhost/workout"
 let app = express();
-mongoose.connect("mongodb://localhost/workout", {
+mongoose.connect(mongoDBURL, {
   useNewUrlParser: true,
   useFindAndModify: false
 });
